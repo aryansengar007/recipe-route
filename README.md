@@ -55,7 +55,7 @@
 
 <div align="center">
 
-### 🌐 [recipe-route.netlify.app](https://recipe-route.netlify.app/)
+[![Site Preview](assets_readme/hero.png)](https://recipe-route.netlify.app/)
 
 *Click the badge above to visit the live site ↑*
 
