@@ -50,7 +50,7 @@ export default function ContactPage() {
     setSending(true);
     // Submit via FormBold
     try {
-      await fetch('https://formbold.com/s/3wBrW', {
+      await fetch('https://formbold.com/s/3Ndan', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
