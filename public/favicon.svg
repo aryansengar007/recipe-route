@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f9a83a"/>
+      <stop offset="100%" stop-color="#c1540a"/>
+    </linearGradient>
+  </defs>
+  <!-- Left R stem -->
+  <rect x="9" y="12" width="4" height="38" rx="2" fill="white"/>
+  <!-- Left R bowl top -->
+  <path d="M13 12 Q28 12 28 21 Q28 30 13 30" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Left R leg -->
+  <path d="M13 30 L26 50" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right R (offset) -->
+  <rect x="28" y="12" width="3.5" height="36" rx="2" fill="white" opacity="0.85"/>
+  <!-- Right R bowl -->
+  <path d="M31.5 12 Q44 12 44 20 Q44 28 31.5 28" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- Right R leg -->
+  <path d="M31.5 28 L43 50" stroke="white" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+  <!-- Dashed flight path on left R stem -->
+  <line x1="11" y1="13" x2="11" y2="49" stroke="rgba(0,0,0,0.35)" stroke-width="1.2" stroke-dasharray="2.5,2" stroke-linecap="round"/>
+  <!-- Airplane at top -->
+  <g transform="translate(7.5,8.5) scale(0.52)">
+    <polygon points="6,0 10,6 6,5 2,6" fill="white"/>
+    <rect x="1" y="6" width="10" height="2" rx="0.5" fill="white"/>
+    <polygon points="4,8 6,11 8,8" fill="white" opacity="0.8"/>
+  </g>
+</svg>
