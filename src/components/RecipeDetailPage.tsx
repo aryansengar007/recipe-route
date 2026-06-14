@@ -350,7 +350,8 @@ export default function RecipeDetailPage({ recipe, isFavorite, onToggleFavorite,
                       className="flex items-center gap-1.5 rounded-xl border border-stone-200 bg-white px-4 py-2 text-sm text-stone-600 disabled:opacity-40 hover:border-stone-300 transition">
                       <ArrowLeft className="h-4 w-4" /> Previous
                     </button>
-                    <button type="button" onClick={() => { markStep(activeStep); if (activeStep < recipe.instructions.length - 1) setActiveStep(p => p + 1); }}
+                    <button type="button"
+                      onClick={() => markStep(activeStep)}
                       className="flex items-center gap-1.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white px-4 py-2 text-sm font-medium transition">
                       <CheckCircle2 className="h-4 w-4" /> Mark Done & Next
                     </button>
