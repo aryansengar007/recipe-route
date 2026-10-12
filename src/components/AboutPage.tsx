@@ -82,7 +82,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="absolute -inset-3 rounded-full bg-white/20 blur-xl animate-pulse-slow" />
                 <div className="relative h-64 w-64 sm:h-72 sm:w-72 rounded-full overflow-hidden border-4 border-white/40 shadow-2xl">
-                  <img src="/aryan.jpg" alt="Aryan Sengar"
+                  <img src="/aryan.jpeg" alt="Aryan Sengar"
                     className="w-full h-full object-cover object-top" />
                 </div>
                 {/* Floating badge */}
